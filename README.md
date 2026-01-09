@@ -22,7 +22,7 @@ flowchart TD
     C --> D[Store/Transmit Encrypted Data]
     D --> E[Decrypt Data]
     E --> F[Retrieve Original Data]
-    B --> G[Override Key/Salt (Optional)]
+    B --> G[Override Key/Salt *Optional*]
     G --> C
     C --> H[Utility Functions]
     H --> I[Get Key/Salt]
